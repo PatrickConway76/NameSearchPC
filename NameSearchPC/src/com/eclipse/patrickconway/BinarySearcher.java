@@ -17,7 +17,7 @@ public class BinarySearcher
 			{
 				found = true;
 			}
-			else if (array[middle].compareToIgnoreCase(value) > 0)
+			else if (array[middle].compareToIgnoreCase(value) < 0)
 			{
 				last = middle -1;
 			}
